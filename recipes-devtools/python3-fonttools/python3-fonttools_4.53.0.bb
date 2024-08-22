@@ -1,3 +1,5 @@
+#Author chetan@novelmicrodevices.com
+#Last update: 8/22/2024
 SUMMARY = "FontTools library for manipulating fonts"
 DESCRIPTION = "FontTools is a library for manipulating fonts, written in Python."
 LICENSE = "MIT"
