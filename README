@@ -1,0 +1,49 @@
+This README file contains information on the contents of the meta-fontTools layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+This layer depends on the following layers:
+
+  - `meta`
+  - `meta-python`
+
+Ensure that these layers are included in your build environment before adding `meta-fontTools`.
+
+Patches
+=======
+
+Please submit any patches against the meta-fontTools layer to the GitHub repository issues or pull requests.
+
+Maintainer: Chetan Dandolu <chetan@novelmicrodevices.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-fontTools layer to your build
+ II. Python3-fonttools recipe
+III. Misc
+
+I. Adding the meta-fontTools layer to your build
+================================================
+
+To include the meta-fontTools layer in your build, add it to your `bblayers.conf` file:
+
+```bash
+bitbake-layers add-layer meta-fontTools
+```
+
+II. Python3-fonttools recipe
+=============================
+
+This layer currently includes the following recipe:
+
+- **python3-fonttools_4.53.0.bb**: This recipe builds and installs the FontTools library, which is a set of tools to manipulate font files. It is useful to load backend_pdf module for matplotlib.
+
+III. Misc
+=========
+
+This layer is in the early stages of development. Future updates may include additional recipes or enhancements. Contributions and patches are welcome.
+
